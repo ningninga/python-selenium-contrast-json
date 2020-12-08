@@ -20,8 +20,7 @@ driver.get("https://www.json.cn/")
 time.sleep(2)
 ```
 
-## 3.Let the project open your specific document and specific sheet.Use a loop to read the rows and cols,
-## and then put the content into the website, before this step, you need to find the id on the page where you need put the content into.
+## 3.Let the project open your specific document and specific sheet.Use a loop to read the rows and cols,and then put the content into the website, before this step, you need to find the id on the page where you need put the content into.
 ```
 data = xlrd.open_workbook('doc.xlsx')
 tables = data.sheets()[0]
