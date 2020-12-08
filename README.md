@@ -36,9 +36,13 @@ for rows in range(1, allRows + 1):
     driver.find_element_by_id("json-src").send_keys('0')
 ```
 
-## 4.Close and quit the driver, if you do not do this, then your ram will be die:) trust me.  
+## 4.Close and quit the driver, if you do not do this, then your RAM will be die:) trust me.  
 NEVER FORGET TO CLOSE AND QUIT IN THE END OF THE CODE!!!!
 ```
 driver.close()
 driver.quit()
 ```
+
+## 5. If you want to compare two differnet jsons, please copy the whole code to another python file, and run twice.   
+
+I hope this would be helpful. 
